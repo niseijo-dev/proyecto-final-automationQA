@@ -1,12 +1,15 @@
 import pytest
 from pages.login_page import LoginPage
 from pages.inventory_page import InventoryPage
+from pages.cart_page import CartPage
 
 @pytest.mark.ui
-def test_login_pom(driver):
+def test_agregar_item_carrito(driver):
     login = LoginPage(driver)
     login.navegar()
-    # Datos fijos por ahora, cumpliendo solo con POM
     login.login("standard_user", "secret_sauce")
     inv = InventoryPage(driver)
-    assert "Products" in inv.obtener_titulo()
+    inv.agregar_mochila()
+    inv.ir_al_carrito()
+    cart = CartPage(driver)
+    assert cart.hay_productos() is True
