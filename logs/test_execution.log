@@ -1,0 +1,11 @@
+2025-12-13 21:51:07,594 - INFO - API: Consultando lista de usuarios
+2025-12-13 21:51:08,705 - INFO - API: Creando nuevo usuario
+2025-12-13 21:51:09,377 - INFO - API: Eliminando usuario
+2025-12-13 21:51:27,542 - INFO - Inicio Test: Login Standard User
+2025-12-13 21:51:28,534 - INFO - Fin Test: Login exitoso
+2025-12-13 21:51:32,065 - INFO - Inicio Test Data-Driven: Usuario standard_user
+2025-12-13 21:51:33,073 - INFO - Fin Test Data-Driven
+2025-12-13 21:51:36,614 - INFO - Inicio Test Data-Driven: Usuario locked_out_user
+2025-12-13 21:51:37,621 - INFO - Fin Test Data-Driven
+2025-12-13 21:51:41,121 - INFO - Inicio Test Data-Driven: Usuario problem_user
+2025-12-13 21:51:42,126 - INFO - Fin Test Data-Driven
